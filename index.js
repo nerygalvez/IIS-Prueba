@@ -11,7 +11,8 @@ app.get('/', (req, res) => {
     date: today,
     up: `${(Date.now() - dateUp)/1000} seg.`,
     repo: 'https://github.com/carlosazaustre/hello-cloud-run',
-    url: 'https://carlosazaustre.es'
+    url: 'https://carlosazaustre.es',
+    grupo : 'IIS - Grupo 4'
   });
 });
 
